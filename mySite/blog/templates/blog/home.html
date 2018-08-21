@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎使用jayjayli的博客</title>
+</head>
+<body>
+<h1>
+    <!--{% for i,j  in showmessage.items %}-->
+    <!--<p>-->
+            <!--{{ i }},{{j}}-->
+    <!--</p>-->
+    <!--{% endfor%}-->
+    <ul>
+{% for athlete in showmessage %}
+    <li>{{ athlete }}</li>
+{% endfor %}
+</ul>
+
+</h1>
+
+</body>
+</html>
